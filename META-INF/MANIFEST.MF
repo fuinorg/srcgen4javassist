@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-Description: A small wrapper for Javassist that can be used to ge
+ nerate source files and bytecode.
+Bundle-DocURL: http://www.fuin.org/
+Bundle-License: http://www.fsf.org/licensing/licenses/lgpl.html
+Bundle-ManifestVersion: 2
+Bundle-Name: SrcGen4Javassist
+Bundle-SymbolicName: org.fuin.srcgen4javassist
+Bundle-Vendor: Future Invent Informationsmanagement GmbH, Hamburg (Germa
+ ny)
+Bundle-Version: 0.5.8
+Export-Package: org.fuin.srcgen4javassist;version="0.5.8";uses:=javassis
+ t,org.fuin.srcgen4javassist.factory;version="0.5.8";uses:="org.fuin.src
+ gen4javassist"
+Import-Package: javassist
